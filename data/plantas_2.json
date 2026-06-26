@@ -8,7 +8,7 @@
     "preparacion": "Infusión: 1 cucharadita de planta seca en 250ml. Tomar 2-3 veces al día.",
     "contraindicaciones": "Evitar en embarazo (estimula el útero). Puede interferir con hormonas.",
     "parte_usada": "partes aéreas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Verbena_officinalis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-288.jpg/800px-Verbena_officinalis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-288.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Verbena_officinalis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-288.jpg/800px-Verbena_officinalis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-288.jpg"
   },
   {
     "id": 102,
@@ -19,7 +19,7 @@
     "preparacion": "Infusión: 1-2 cucharaditas de flores y hojas en 250ml. Compresas externas.",
     "contraindicaciones": "Generalmente seguro. Evitar en exceso durante embarazo.",
     "parte_usada": "flores y hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Viola_tricolor_Hofn%C3%A4gelein.jpg/800px-Viola_tricolor_Hofn%C3%A4gelein.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Viola_tricolor_Hofn%C3%A4gelein.jpg/800px-Viola_tricolor_Hofn%C3%A4gelein.jpg"
   },
   {
     "id": 103,
@@ -30,7 +30,7 @@
     "preparacion": "Infusión: 1 cucharada de planta seca en 250ml. Jarabe con miel para tos.",
     "contraindicaciones": "Evitar en embarazo. Puede ser hepatotóxico en dosis muy altas.",
     "parte_usada": "partes aéreas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Marrubium_vulgare_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-086.jpg/800px-Marrubium_vulgare_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-086.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Marrubium_vulgare_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-086.jpg/800px-Marrubium_vulgare_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-086.jpg"
   },
   {
     "id": 104,
@@ -41,7 +41,7 @@
     "preparacion": "Infusión de raíz: 1 cucharadita en 250ml. Tintura: 20-30 gotas.",
     "contraindicaciones": "Fotosensibilizante. Evitar en embarazo y con anticoagulantes.",
     "parte_usada": "raíz y semillas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Angelica_archangelica_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-011.jpg/800px-Angelica_archangelica_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-011.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Angelica_archangelica_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-011.jpg/800px-Angelica_archangelica_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-011.jpg"
   },
   {
     "id": 105,
@@ -52,7 +52,7 @@
     "preparacion": "Infusión: 1 cucharadita de semillas machacadas en 250ml.",
     "contraindicaciones": "Evitar en alergia a Apiaceae. Precaución en embarazo en dosis medicinales.",
     "parte_usada": "frutos (semillas)",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Pimpinella_anisum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-106.jpg/800px-Pimpinella_anisum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-106.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Pimpinella_anisum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-106.jpg/800px-Pimpinella_anisum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-106.jpg"
   },
   {
     "id": 106,
@@ -63,7 +63,7 @@
     "preparacion": "Semillas en infusión. Hojas frescas en alimentos. Tintura de semillas.",
     "contraindicaciones": "Alergia posible en familia Apiaceae. Evitar en exceso durante embarazo.",
     "parte_usada": "semillas y hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Coriandrum_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-182.jpg/800px-Coriandrum_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-182.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Coriandrum_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-182.jpg/800px-Coriandrum_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-182.jpg"
   },
   {
     "id": 107,
@@ -74,7 +74,7 @@
     "preparacion": "Infusión de semillas: 1 cucharadita en 250ml. En cocina como especia.",
     "contraindicaciones": "Generalmente seguro. Evitar en dosis medicinales en embarazo.",
     "parte_usada": "semillas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Cuminum_cyminum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-183.jpg/800px-Cuminum_cyminum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-183.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Cuminum_cyminum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-183.jpg/800px-Cuminum_cyminum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-183.jpg"
   },
   {
     "id": 108,
@@ -85,7 +85,7 @@
     "preparacion": "Infusión de hojas o raíz: 1 cucharada en 250ml. Masticar hojas frescas.",
     "contraindicaciones": "Evitar en embarazo y enfermedad renal. Aceite esencial tóxico.",
     "parte_usada": "hojas y raíz",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Petroselinum_crispum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-104.jpg/800px-Petroselinum_crispum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-104.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Petroselinum_crispum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-104.jpg/800px-Petroselinum_crispum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-104.jpg"
   },
   {
     "id": 109,
@@ -96,7 +96,7 @@
     "preparacion": "Jugo fresco: 1 tallo en licuadora. Semillas en infusión. Cápsulas de extracto.",
     "contraindicaciones": "Fotosensibilizante. Evitar en embarazo en dosis medicinales y en insuficiencia renal.",
     "parte_usada": "tallos, semillas y raíz",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Apium_graveolens_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-013.jpg/800px-Apium_graveolens_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-013.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Apium_graveolens_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-013.jpg/800px-Apium_graveolens_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-013.jpg"
   },
   {
     "id": 110,
@@ -107,7 +107,7 @@
     "preparacion": "Jugo fresco. Semillas en infusión. Raíz cocida o cruda.",
     "contraindicaciones": "Semillas medicinales: evitar en embarazo. Beta-caroteno en exceso puede colorear la piel.",
     "parte_usada": "raíz, semillas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Daucus_carota_subsp._sativus.jpg/800px-Daucus_carota_subsp._sativus.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Daucus_carota_subsp._sativus.jpg/800px-Daucus_carota_subsp._sativus.jpg"
   },
   {
     "id": 111,
@@ -118,7 +118,7 @@
     "preparacion": "Decocción de raíz: 2 cucharadas en 500ml hervir 15 min. Tintura.",
     "contraindicaciones": "Evitar en embarazo. Puede interactuar con anticoagulantes.",
     "parte_usada": "raíz",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Arctium_lappa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-170.jpg/800px-Arctium_lappa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-170.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Arctium_lappa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-170.jpg/800px-Arctium_lappa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-170.jpg"
   },
   {
     "id": 112,
@@ -129,7 +129,7 @@
     "preparacion": "Infusión: 1 cucharada de planta en 250ml. 3 tazas al día.",
     "contraindicaciones": "Alergia en Asteraceae. Evitar en embarazo.",
     "parte_usada": "partes aéreas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Gnaphalium_americanum.jpg/800px-Gnaphalium_americanum.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Gnaphalium_americanum.jpg/800px-Gnaphalium_americanum.jpg"
   },
   {
     "id": 113,
@@ -140,7 +140,7 @@
     "preparacion": "Hojas frescas en ensalada. Jugo: licuar hojas con agua. Infusión ligera.",
     "contraindicaciones": "Evitar en hipotiroidismo en exceso. No consumir silvestre sin lavar (parásitos).",
     "parte_usada": "hojas y tallos",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nasturtium_officinale_R_Br.jpg/800px-Nasturtium_officinale_R_Br.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nasturtium_officinale_R_Br.jpg/800px-Nasturtium_officinale_R_Br.jpg"
   },
   {
     "id": 114,
@@ -151,7 +151,7 @@
     "preparacion": "Jugo: rallado con miel. Jarabe: jugo con azúcar para tos.",
     "contraindicaciones": "Evitar en cálculos biliares activos y úlcera. Precaución en hipotiroidismo.",
     "parte_usada": "raíz",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Radishes_with_leaves.jpg/800px-Radishes_with_leaves.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Radishes_with_leaves.jpg/800px-Radishes_with_leaves.jpg"
   },
   {
     "id": 115,
@@ -162,7 +162,7 @@
     "preparacion": "Jugo fresco: hojas licuadas. Hojas cocidas al vapor.",
     "contraindicaciones": "Precaución en hipotiroidismo en exceso. Puede interferir con anticoagulantes.",
     "parte_usada": "hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Kale-leaves.jpg/800px-Kale-leaves.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Kale-leaves.jpg/800px-Kale-leaves.jpg"
   },
   {
     "id": 116,
@@ -173,7 +173,7 @@
     "preparacion": "Decocción de corteza: pequeña cantidad. Solo bajo supervisión.",
     "contraindicaciones": "Laxante potente. Evitar en embarazo, lactancia e inflamación intestinal.",
     "parte_usada": "corteza y frutos",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Rhamnus_cathartica.jpg/800px-Rhamnus_cathartica.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Rhamnus_cathartica.jpg/800px-Rhamnus_cathartica.jpg"
   },
   {
     "id": 117,
@@ -184,7 +184,7 @@
     "preparacion": "Extracto: 150-300mg de ruscogeninas al día. Decocción de rizoma.",
     "contraindicaciones": "Evitar en hipertensión sin control. Precaución en embarazo.",
     "parte_usada": "rizoma",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ruscus_aculeatus_-_fruits.jpg/800px-Ruscus_aculeatus_-_fruits.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ruscus_aculeatus_-_fruits.jpg/800px-Ruscus_aculeatus_-_fruits.jpg"
   },
   {
     "id": 118,
@@ -195,7 +195,7 @@
     "preparacion": "Agua de hamamelis tópica. Compresas con infusión. Crema.",
     "contraindicaciones": "Uso externo principalmente. Evitar en piel muy seca o sensible.",
     "parte_usada": "hojas y corteza",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Hamamelis_virginiana1.jpg/800px-Hamamelis_virginiana1.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Hamamelis_virginiana1.jpg/800px-Hamamelis_virginiana1.jpg"
   },
   {
     "id": 119,
@@ -206,7 +206,7 @@
     "preparacion": "Infusión de hojas: 2 cucharaditas en 250ml. 2-3 tazas al día.",
     "contraindicaciones": "Evitar en insuficiencia renal. Puede causar alergia.",
     "parte_usada": "hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Fraxinus_excelsior_leaves.jpg/800px-Fraxinus_excelsior_leaves.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Fraxinus_excelsior_leaves.jpg/800px-Fraxinus_excelsior_leaves.jpg"
   },
   {
     "id": 120,
@@ -217,7 +217,7 @@
     "preparacion": "Extracto de semilla: 100-300mg al día. Infusión de hojas rojas.",
     "contraindicaciones": "Precaución con anticoagulantes. Generalmente bien tolerado.",
     "parte_usada": "hojas, semillas y piel del fruto",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Wine_grapes07.jpg/800px-Wine_grapes07.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Wine_grapes07.jpg/800px-Wine_grapes07.jpg"
   },
   {
     "id": 121,
@@ -228,7 +228,7 @@
     "preparacion": "Infusión de hojas: 1-2 cucharaditas en 250ml. 2-3 tazas al día.",
     "contraindicaciones": "Evitar en el primer trimestre del embarazo. Consultar en caso de riesgo de parto prematuro.",
     "parte_usada": "hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Raspberry_-_whole_%28Rubus_idaeus%29.jpg/800px-Raspberry_-_whole_%28Rubus_idaeus%29.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Raspberry_-_whole_%28Rubus_idaeus%29.jpg/800px-Raspberry_-_whole_%28Rubus_idaeus%29.jpg"
   },
   {
     "id": 122,
@@ -239,7 +239,7 @@
     "preparacion": "Infusión de hojas: 2 cucharaditas en 250ml. Gargarismos. Frutos frescos.",
     "contraindicaciones": "Generalmente seguro. Evitar en estreñimiento.",
     "parte_usada": "hojas y frutos",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Blackberry_arp_lores.jpg/800px-Blackberry_arp_lores.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Blackberry_arp_lores.jpg/800px-Blackberry_arp_lores.jpg"
   },
   {
     "id": 123,
@@ -250,7 +250,7 @@
     "preparacion": "Frutos frescos o secos. Extracto: 80-160mg de antocianinas al día.",
     "contraindicaciones": "Precaución con anticoagulantes en extractos concentrados.",
     "parte_usada": "frutos y hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Blueberries_Vaccinium_myrtillus.jpg/800px-Blueberries_Vaccinium_myrtillus.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Blueberries_Vaccinium_myrtillus.jpg/800px-Blueberries_Vaccinium_myrtillus.jpg"
   },
   {
     "id": 124,
@@ -261,7 +261,7 @@
     "preparacion": "Jugo sin azúcar: 300ml al día. Extracto en cápsulas: 400mg al día.",
     "contraindicaciones": "Precaución con warfarina. No sustituye tratamiento antibiótico en infección activa.",
     "parte_usada": "frutos",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Cranberries.jpg/800px-Cranberries.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Cranberries.jpg/800px-Cranberries.jpg"
   },
   {
     "id": 125,
@@ -272,7 +272,7 @@
     "preparacion": "Infusión fría: macerar 2 cucharaditas en 250ml agua fría 12 horas.",
     "contraindicaciones": "No usar más de 2 semanas. Evitar en embarazo, lactancia y menores de 12 años.",
     "parte_usada": "hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Arctostaphylos_uva-ursi_-_bearberry.jpg/800px-Arctostaphylos_uva-ursi_-_bearberry.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Arctostaphylos_uva-ursi_-_bearberry.jpg/800px-Arctostaphylos_uva-ursi_-_bearberry.jpg"
   },
   {
     "id": 126,
@@ -283,7 +283,7 @@
     "preparacion": "Infusión: 2 cucharaditas de flores en 250ml. 2-3 tazas al día.",
     "contraindicaciones": "Evitar en insuficiencia renal grave. Generalmente bien tolerado.",
     "parte_usada": "flores y partes aéreas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Calluna_vulgaris_flowers.jpg/800px-Calluna_vulgaris_flowers.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Calluna_vulgaris_flowers.jpg/800px-Calluna_vulgaris_flowers.jpg"
   },
   {
     "id": 127,
@@ -294,7 +294,7 @@
     "preparacion": "Infusión de hojas: 1 cucharadita en 250ml. Frutos en pequeñas cantidades.",
     "contraindicaciones": "Los frutos en exceso pueden causar embriaguez leve. Evitar en embarazo.",
     "parte_usada": "hojas y frutos",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Arbutus_unedo_fruits.jpg/800px-Arbutus_unedo_fruits.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Arbutus_unedo_fruits.jpg/800px-Arbutus_unedo_fruits.jpg"
   },
   {
     "id": 128,
@@ -305,7 +305,7 @@
     "preparacion": "Infusión de hojas: 2 cucharaditas en 250ml. Aceite de oliva virgen extra.",
     "contraindicaciones": "Puede potenciar antihipertensivos y antidiabéticos. Monitorear presión y glucosa.",
     "parte_usada": "hojas y aceite del fruto",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Olive_oil_from_Oneglia.jpg/800px-Olive_oil_from_Oneglia.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Olive_oil_from_Oneglia.jpg/800px-Olive_oil_from_Oneglia.jpg"
   },
   {
     "id": 129,
@@ -316,7 +316,7 @@
     "preparacion": "Infusión: 2 cucharaditas de flores en 250ml. No hervir (destruye activos).",
     "contraindicaciones": "Contiene salicilatos: evitar en alergia a aspirina y en niños con fiebre.",
     "parte_usada": "flores y hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Filipendula_ulmaria_flowers.jpg/800px-Filipendula_ulmaria_flowers.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Filipendula_ulmaria_flowers.jpg/800px-Filipendula_ulmaria_flowers.jpg"
   },
   {
     "id": 130,
@@ -327,7 +327,7 @@
     "preparacion": "Látex fresco en verrugas. Tintura muy diluida bajo supervisión médica.",
     "contraindicaciones": "Hepatotóxico en dosis altas. Solo tópico del látex. Supervisión médica para uso interno.",
     "parte_usada": "látex y partes aéreas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Chelidonium_majus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-029.jpg/800px-Chelidonium_majus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-029.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Chelidonium_majus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-029.jpg/800px-Chelidonium_majus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-029.jpg"
   },
   {
     "id": 131,
@@ -338,7 +338,7 @@
     "preparacion": "Infusión: 1-2 cucharaditas de planta seca en 250ml. Tintura: 1-4ml.",
     "contraindicaciones": "Evitar con sedantes. No confundir con adormidera. Evitar en embarazo.",
     "parte_usada": "partes aéreas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Eschscholzia_californica.jpg/800px-Eschscholzia_californica.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Eschscholzia_californica.jpg/800px-Eschscholzia_californica.jpg"
   },
   {
     "id": 132,
@@ -349,7 +349,7 @@
     "preparacion": "Semillas en repostería. Aceite de semilla de uso culinario.",
     "contraindicaciones": "La planta entera es controlada por ley. Solo semillas y aceite permitidos en alimentos.",
     "parte_usada": "semillas (uso culinario)",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Papaver_somniferum_2.jpg/800px-Papaver_somniferum_2.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Papaver_somniferum_2.jpg/800px-Papaver_somniferum_2.jpg"
   },
   {
     "id": 133,
@@ -360,7 +360,7 @@
     "preparacion": "Jugo de fruto: 30-90ml al día. Cápsulas de extracto.",
     "contraindicaciones": "Alto en potasio: evitar en enfermedad renal. Precaución con anticoagulantes.",
     "parte_usada": "fruto y hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Noni_Fruit_Morinda_citrifolia.jpg/800px-Noni_Fruit_Morinda_citrifolia.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Noni_Fruit_Morinda_citrifolia.jpg/800px-Noni_Fruit_Morinda_citrifolia.jpg"
   },
   {
     "id": 134,
@@ -371,7 +371,7 @@
     "preparacion": "Fruta fresca en ayunas. Semillas: 1 cucharadita al día. Hojas en infusión.",
     "contraindicaciones": "Semillas en exceso pueden ser tóxicas. Látex puede causar contracciones en embarazo.",
     "parte_usada": "fruto, semillas y hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Papaya_cross_section_BNC.jpg/800px-Papaya_cross_section_BNC.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Papaya_cross_section_BNC.jpg/800px-Papaya_cross_section_BNC.jpg"
   },
   {
     "id": 135,
@@ -382,7 +382,7 @@
     "preparacion": "Fruta fresca. Extracto de bromelina: 500mg entre comidas.",
     "contraindicaciones": "Puede potenciar anticoagulantes. Evitar bromeína en exceso en embarazo.",
     "parte_usada": "fruto y tallo",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hapus_Mango.jpg/800px-Hapus_Mango.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hapus_Mango.jpg/800px-Hapus_Mango.jpg"
   },
   {
     "id": 136,
@@ -393,7 +393,7 @@
     "preparacion": "Fruta fresca. Hojas en infusión: 2-3 hojas en 250ml. Corteza en decocción.",
     "contraindicaciones": "Alergia posible en familia Anacardiaceae. Hojas en exceso: monitorear glucosa.",
     "parte_usada": "fruto, hojas y corteza",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Mango_Mangifera_indica.jpg/800px-Mango_Mangifera_indica.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Mango_Mangifera_indica.jpg/800px-Mango_Mangifera_indica.jpg"
   },
   {
     "id": 137,
@@ -404,7 +404,7 @@
     "preparacion": "Jugo del fruto. Infusión de hojas: 2-3 hojas en 250ml.",
     "contraindicaciones": "Puede potenciar sedantes. Evitar en embarazo en dosis medicinales.",
     "parte_usada": "fruto y hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Passiflora_edulis.jpg/800px-Passiflora_edulis.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Passiflora_edulis.jpg/800px-Passiflora_edulis.jpg"
   },
   {
     "id": 138,
@@ -415,7 +415,7 @@
     "preparacion": "Pulpa en agua: laxante natural. Bebida refrescante.",
     "contraindicaciones": "Puede potenciar aspirina e ibuprofeno. Laxante suave.",
     "parte_usada": "pulpa del fruto",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tamarind_-_Tamarindus_indica.jpg/800px-Tamarind_-_Tamarindus_indica.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tamarind_-_Tamarindus_indica.jpg/800px-Tamarind_-_Tamarindus_indica.jpg"
   },
   {
     "id": 139,
@@ -426,7 +426,7 @@
     "preparacion": "Fruta fresca. Hojas en infusión: 4-5 hojas en 500ml. Té de hojas para diarrea.",
     "contraindicaciones": "Semillas en exceso pueden causar estreñimiento. Monitorear glucosa.",
     "parte_usada": "fruto y hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Guava_ID.jpg/800px-Guava_ID.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Guava_ID.jpg/800px-Guava_ID.jpg"
   },
   {
     "id": 140,
@@ -437,7 +437,7 @@
     "preparacion": "Agua de coco fresca. Aceite virgen: 1-2 cucharadas al día.",
     "contraindicaciones": "Alto en grasas saturadas: moderación en cardiopatías. El agua es segura.",
     "parte_usada": "agua, pulpa y aceite",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Coconut_on_white_background.jpg/800px-Coconut_on_white_background.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Coconut_on_white_background.jpg/800px-Coconut_on_white_background.jpg"
   },
   {
     "id": 141,
@@ -448,7 +448,7 @@
     "preparacion": "Fruta fresca. Hueso en infusión para digestión (uso tradicional moderado).",
     "contraindicaciones": "Hojas tóxicas para animales. Hueso en exceso: toxicidad. Fruto seguro.",
     "parte_usada": "fruto y hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hapus_Mango.jpg/800px-Hapus_Mango.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hapus_Mango.jpg/800px-Hapus_Mango.jpg"
   },
   {
     "id": 142,
@@ -459,7 +459,7 @@
     "preparacion": "Jugo fresco en agua tibia. Cascara en infusión. Aromaterapia con aceite esencial.",
     "contraindicaciones": "El jugo puede erosionar el esmalte dental. Fotosensibilizante el aceite esencial.",
     "parte_usada": "fruto y cáscara",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Lemon_-_whole_and_slice.jpg/800px-Lemon_-_whole_and_slice.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Lemon_-_whole_and_slice.jpg/800px-Lemon_-_whole_and_slice.jpg"
   },
   {
     "id": 143,
@@ -470,7 +470,7 @@
     "preparacion": "Infusión de flores (azahar): 1 cucharadita en 250ml. Extracto de cáscara.",
     "contraindicaciones": "Sinefrina en cáscara: precaución en hipertensión y cardiopatías.",
     "parte_usada": "flores, cáscara y fruto",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Citrus_aurantium.jpg/800px-Citrus_aurantium.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Citrus_aurantium.jpg/800px-Citrus_aurantium.jpg"
   },
   {
     "id": 144,
@@ -481,7 +481,7 @@
     "preparacion": "Fruta fresca. Extracto de semilla (GSE) como antimicrobiano.",
     "contraindicaciones": "Interacciones graves con muchos medicamentos (inhibe CYP3A4). Consultar siempre.",
     "parte_usada": "fruto y semillas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Grapefruit_DSC00309.jpg/800px-Grapefruit_DSC00309.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Grapefruit_DSC00309.jpg/800px-Grapefruit_DSC00309.jpg"
   },
   {
     "id": 145,
@@ -492,7 +492,7 @@
     "preparacion": "Aceite esencial en difusor. Té Earl Grey (con bergamota). Extracto oral.",
     "contraindicaciones": "Aceite esencial fotosensibilizante. Puede interactuar con estatinas.",
     "parte_usada": "cáscara (aceite esencial)",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Bergamot_orange.jpg/800px-Bergamot_orange.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Bergamot_orange.jpg/800px-Bergamot_orange.jpg"
   },
   {
     "id": 146,
@@ -503,7 +503,7 @@
     "preparacion": "Resina en incensario. Aceite esencial en difusor. Extracto oral.",
     "contraindicaciones": "Evitar aceite esencial por vía interna. Puede interactuar con antiinflamatorios.",
     "parte_usada": "resina",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Boswellia_sacra_Oman.jpg/800px-Boswellia_sacra_Oman.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Boswellia_sacra_Oman.jpg/800px-Boswellia_sacra_Oman.jpg"
   },
   {
     "id": 147,
@@ -514,7 +514,7 @@
     "preparacion": "Tintura: 5-10 gotas diluidas para enjuague bucal. Resina en infusión.",
     "contraindicaciones": "Evitar en embarazo. Puede interactuar con antidiabéticos.",
     "parte_usada": "resina",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Commiphora_myrrha.jpg/800px-Commiphora_myrrha.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Commiphora_myrrha.jpg/800px-Commiphora_myrrha.jpg"
   },
   {
     "id": 148,
@@ -525,7 +525,7 @@
     "preparacion": "Aceite esencial en difusor o diluido al 2% para masajes. Polvo en pasta.",
     "contraindicaciones": "Evitar aceite esencial puro en piel. Precaución en insuficiencia renal.",
     "parte_usada": "madera y aceite",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Sandalwood_chip.jpg/800px-Sandalwood_chip.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Sandalwood_chip.jpg/800px-Sandalwood_chip.jpg"
   },
   {
     "id": 149,
@@ -536,7 +536,7 @@
     "preparacion": "Inhalación de vapor con hojas. Aceite esencial diluido en tórax. Infusión de hojas.",
     "contraindicaciones": "No usar aceite esencial en niños menores de 6 años. Tóxico si se ingiere puro.",
     "parte_usada": "hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Eucalyptus_globulus_-_leaves.jpg/800px-Eucalyptus_globulus_-_leaves.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Eucalyptus_globulus_-_leaves.jpg/800px-Eucalyptus_globulus_-_leaves.jpg"
   },
   {
     "id": 150,
@@ -547,7 +547,7 @@
     "preparacion": "Infusión de hojas: 1 cucharadita en 250ml. Aceite esencial diluido.",
     "contraindicaciones": "Aceite esencial: no usar en niños ni internamente. Evitar en embarazo.",
     "parte_usada": "hojas y frutos",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Myrtus_communis_flowers.jpg/800px-Myrtus_communis_flowers.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Myrtus_communis_flowers.jpg/800px-Myrtus_communis_flowers.jpg"
   },
   {
     "id": 151,
@@ -558,7 +558,7 @@
     "preparacion": "Infusión: 1 cucharadita de bayas molidas en 250ml.",
     "contraindicaciones": "Aceite esencial irritante en mucosas. Evitar en úlcera activa.",
     "parte_usada": "frutos",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Pimenta_dioica.jpg/800px-Pimenta_dioica.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Pimenta_dioica.jpg/800px-Pimenta_dioica.jpg"
   },
   {
     "id": 152,
@@ -569,7 +569,7 @@
     "preparacion": "Infusión de semillas: 3-4 cápsulas en 250ml. En cocina como especia.",
     "contraindicaciones": "Generalmente seguro. Aceite esencial en dosis altas puede irritar.",
     "parte_usada": "semillas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Elettaria_cardamomum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-038.jpg/800px-Elettaria_cardamomum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-038.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Elettaria_cardamomum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-038.jpg/800px-Elettaria_cardamomum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-038.jpg"
   },
   {
     "id": 153,
@@ -580,7 +580,7 @@
     "preparacion": "Infusión de raíz: rodajas frescas en agua caliente. En cocina asiática.",
     "contraindicaciones": "Evitar en altas dosis durante embarazo.",
     "parte_usada": "rizoma",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Alpinia_galanga.jpg/800px-Alpinia_galanga.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Alpinia_galanga.jpg/800px-Alpinia_galanga.jpg"
   },
   {
     "id": 154,
@@ -591,7 +591,7 @@
     "preparacion": "Infusión: tallos frescos o secos en agua caliente. Aceite esencial en difusor.",
     "contraindicaciones": "Aceite esencial irritante. Evitar en embarazo en dosis medicinales.",
     "parte_usada": "tallos y hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Cymbopogon_citratus_-_Lemongrass.jpg/800px-Cymbopogon_citratus_-_Lemongrass.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Cymbopogon_citratus_-_Lemongrass.jpg/800px-Cymbopogon_citratus_-_Lemongrass.jpg"
   },
   {
     "id": 155,
@@ -602,7 +602,7 @@
     "preparacion": "Aceite esencial en difusor o diluido al 2%. Infusión de raíz.",
     "contraindicaciones": "Generalmente seguro. Aceite esencial puro puede irritar la piel.",
     "parte_usada": "raíz",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Vetiver_grass.jpg/800px-Vetiver_grass.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Vetiver_grass.jpg/800px-Vetiver_grass.jpg"
   },
   {
     "id": 156,
@@ -613,7 +613,7 @@
     "preparacion": "Aceite esencial diluido al 1-2% para piel. Difusor ambiental.",
     "contraindicaciones": "Diluir siempre antes de aplicar. Evitar en embarazo en uso extenso.",
     "parte_usada": "hojas y flores (aceite esencial)",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Cymbopogon_martinii.jpg/800px-Cymbopogon_martinii.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Cymbopogon_martinii.jpg/800px-Cymbopogon_martinii.jpg"
   },
   {
     "id": 157,
@@ -624,7 +624,7 @@
     "preparacion": "Cruda en ensaladas. Jarabe: cebolla con miel para tos. Jugo.",
     "contraindicaciones": "Puede irritar el estómago. Precaución con anticoagulantes en altas dosis.",
     "parte_usada": "bulbo",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Onions.jpg/800px-Onions.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Onions.jpg/800px-Onions.jpg"
   },
   {
     "id": 158,
@@ -635,7 +635,7 @@
     "preparacion": "En sopas y guisos. Jugo fresco. Cocido al vapor.",
     "contraindicaciones": "Generalmente seguro. Puede causar gases en exceso.",
     "parte_usada": "bulbo y hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Leek_on_white.jpg/800px-Leek_on_white.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Leek_on_white.jpg/800px-Leek_on_white.jpg"
   },
   {
     "id": 159,
@@ -646,7 +646,7 @@
     "preparacion": "Hojas frescas en alimentos. Infusión ligera.",
     "contraindicaciones": "Generalmente seguro. Evitar en exceso en problemas gastrointestinales.",
     "parte_usada": "hojas y bulbo",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Chives_moist.jpg/800px-Chives_moist.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Chives_moist.jpg/800px-Chives_moist.jpg"
   },
   {
     "id": 160,
@@ -657,7 +657,7 @@
     "preparacion": "1-3 dientes al día directamente o en alimentos.",
     "contraindicaciones": "Menor efecto anticoagulante que el ajo fresco. Bien tolerado.",
     "parte_usada": "bulbo fermentado",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Black_garlic.jpg/800px-Black_garlic.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Black_garlic.jpg/800px-Black_garlic.jpg"
   },
   {
     "id": 161,
@@ -668,7 +668,7 @@
     "preparacion": "Infusión de hojas: 2-3 hojas en 250ml.",
     "contraindicaciones": "Evitar en embarazo. Alergia en Asteraceae.",
     "parte_usada": "hojas y flores",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tithonia_diversifolia.jpg/800px-Tithonia_diversifolia.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tithonia_diversifolia.jpg/800px-Tithonia_diversifolia.jpg"
   },
   {
     "id": 162,
@@ -679,7 +679,7 @@
     "preparacion": "Infusión de hojas: 1-2 hojas en 250ml. 2 veces al día.",
     "contraindicaciones": "Evitar con antihipertensivos y anticoagulantes. No usar en embarazo.",
     "parte_usada": "hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Plectranthus_barbatus.jpg/800px-Plectranthus_barbatus.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Plectranthus_barbatus.jpg/800px-Plectranthus_barbatus.jpg"
   },
   {
     "id": 163,
@@ -690,7 +690,7 @@
     "preparacion": "Infusión para compresas. Polvo de planta seca en heridas.",
     "contraindicaciones": "Principalmente uso tópico. Evitar en embarazo en uso interno.",
     "parte_usada": "partes aéreas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ageratina_pichinchensis.jpg/800px-Ageratina_pichinchensis.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ageratina_pichinchensis.jpg/800px-Ageratina_pichinchensis.jpg"
   },
   {
     "id": 164,
@@ -701,7 +701,7 @@
     "preparacion": "Hojas cocinadas en sopas y tamales. Uso culinario.",
     "contraindicaciones": "Contiene alcaloides pirrolizidínicos: no consumir en exceso prolongado.",
     "parte_usada": "hojas y semillas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Crotalaria_longirostrata.jpg/800px-Crotalaria_longirostrata.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Crotalaria_longirostrata.jpg/800px-Crotalaria_longirostrata.jpg"
   },
   {
     "id": 165,
@@ -712,7 +712,7 @@
     "preparacion": "Hojas cocidas (nunca crudas): en jugos, sopas o guisos.",
     "contraindicaciones": "Nunca consumir cruda (ácido cianhídrico). Cocinar mínimo 5 minutos.",
     "parte_usada": "hojas (cocidas)",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Cnidoscolus_aconitifolius.jpg/800px-Cnidoscolus_aconitifolius.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Cnidoscolus_aconitifolius.jpg/800px-Cnidoscolus_aconitifolius.jpg"
   },
   {
     "id": 166,
@@ -723,7 +723,7 @@
     "preparacion": "Infusión: 2-3 hojas en 250ml. En cocina como condimento.",
     "contraindicaciones": "Las hojas enteras pueden ser un riesgo de asfixia. Aceite esencial potente.",
     "parte_usada": "hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Laurus_nobilis_leaves.jpg/800px-Laurus_nobilis_leaves.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Laurus_nobilis_leaves.jpg/800px-Laurus_nobilis_leaves.jpg"
   },
   {
     "id": 167,
@@ -734,7 +734,7 @@
     "preparacion": "Infusión de semillas: 1 cucharadita en 250ml. En pan y cocina.",
     "contraindicaciones": "Alergia posible en Apiaceae. Evitar aceite esencial en embarazo.",
     "parte_usada": "frutos (semillas)",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Carum_carvi_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-178.jpg/800px-Carum_carvi_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-178.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Carum_carvi_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-178.jpg/800px-Carum_carvi_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-178.jpg"
   },
   {
     "id": 168,
@@ -745,7 +745,7 @@
     "preparacion": "Infusión de semillas: 1 cucharadita en 250ml. Hojas frescas en ensaladas.",
     "contraindicaciones": "Evitar aceite esencial en embarazo. Alergia posible en Apiaceae.",
     "parte_usada": "semillas y hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Anethum_graveolens_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-012.jpg/800px-Anethum_graveolens_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-012.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Anethum_graveolens_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-012.jpg/800px-Anethum_graveolens_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-012.jpg"
   },
   {
     "id": 169,
@@ -756,7 +756,7 @@
     "preparacion": "Infusión: 1 cucharadita de hojas secas en 250ml.",
     "contraindicaciones": "Evitar aceite esencial en embarazo. No exceder dosis medicinales.",
     "parte_usada": "hojas y flores",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Origanum_majorana_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-098.jpg/800px-Origanum_majorana_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-098.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Origanum_majorana_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-098.jpg/800px-Origanum_majorana_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-098.jpg"
   },
   {
     "id": 170,
@@ -767,7 +767,7 @@
     "preparacion": "Infusión: 1 cucharadita de planta seca en 250ml.",
     "contraindicaciones": "Evitar aceite esencial en embarazo. Uso culinario seguro.",
     "parte_usada": "hojas y flores",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Satureja_montana.jpg/800px-Satureja_montana.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Satureja_montana.jpg/800px-Satureja_montana.jpg"
   },
   {
     "id": 171,
@@ -778,7 +778,7 @@
     "preparacion": "Infusión muy débil: poca cantidad de planta seca en 250ml.",
     "contraindicaciones": "Altamente tóxico en dosis altas. El aceite esencial puede ser mortal. Evitar en embarazo.",
     "parte_usada": "hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mentha_pulegium.jpg/800px-Mentha_pulegium.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mentha_pulegium.jpg/800px-Mentha_pulegium.jpg"
   },
   {
     "id": 172,
@@ -789,7 +789,7 @@
     "preparacion": "Infusión: 2 cucharaditas en 250ml. Aplicación tópica en herpes.",
     "contraindicaciones": "Generalmente seguro. Evitar en altas dosis durante embarazo.",
     "parte_usada": "partes aéreas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Prunella_vulgaris.jpg/800px-Prunella_vulgaris.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Prunella_vulgaris.jpg/800px-Prunella_vulgaris.jpg"
   },
   {
     "id": 173,
@@ -800,7 +800,7 @@
     "preparacion": "Infusión: 1 cucharadita de planta seca en 250ml.",
     "contraindicaciones": "Evitar en embarazo. Puede causar náuseas en dosis altas.",
     "parte_usada": "partes aéreas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Betonica_officinalis_flowers.jpg/800px-Betonica_officinalis_flowers.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Betonica_officinalis_flowers.jpg/800px-Betonica_officinalis_flowers.jpg"
   },
   {
     "id": 174,
@@ -811,7 +811,7 @@
     "preparacion": "Tintura: 2-4ml 3 veces al día. Infusión: 1-2 cucharaditas en 250ml.",
     "contraindicaciones": "Puede ser hepatotóxica si está adulterada. Evitar con sedantes y embarazo.",
     "parte_usada": "partes aéreas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Scutellaria_lateriflora.jpg/800px-Scutellaria_lateriflora.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Scutellaria_lateriflora.jpg/800px-Scutellaria_lateriflora.jpg"
   },
   {
     "id": 175,
@@ -822,7 +822,7 @@
     "preparacion": "Infusión: 1 cucharadita en 250ml. Tintura: 2-4ml al día.",
     "contraindicaciones": "Evitar en embarazo (oxitócico). Interacciones con cardiotónicos y anticoagulantes.",
     "parte_usada": "partes aéreas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Leonurus_cardiaca_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-081.jpg/800px-Leonurus_cardiaca_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-081.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Leonurus_cardiaca_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-081.jpg/800px-Leonurus_cardiaca_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-081.jpg"
   },
   {
     "id": 176,
@@ -833,7 +833,7 @@
     "preparacion": "Extracto del fruto para uso externo. Solo uso tópico.",
     "contraindicaciones": "Tóxico si se ingiere. Solo uso externo bajo supervisión.",
     "parte_usada": "fruto (externo)",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Solanum_mammosum_2.jpg/800px-Solanum_mammosum_2.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Solanum_mammosum_2.jpg/800px-Solanum_mammosum_2.jpg"
   },
   {
     "id": 177,
@@ -844,7 +844,7 @@
     "preparacion": "Infusión: 1 flor en 250ml de agua caliente.",
     "contraindicaciones": "Evitar en hipotensión severa. Precaución en cardiopatías.",
     "parte_usada": "flores",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Chiranthodendron_pentadactylon.jpg/800px-Chiranthodendron_pentadactylon.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Chiranthodendron_pentadactylon.jpg/800px-Chiranthodendron_pentadactylon.jpg"
   },
   {
     "id": 178,
@@ -855,7 +855,7 @@
     "preparacion": "Infusión de hojas: 2 cucharaditas en 250ml. Compresas externas.",
     "contraindicaciones": "Evitar en embarazo. Uso externo más frecuente.",
     "parte_usada": "hojas y corteza",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Buddleja_cordata.jpg/800px-Buddleja_cordata.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Buddleja_cordata.jpg/800px-Buddleja_cordata.jpg"
   },
   {
     "id": 179,
@@ -866,7 +866,7 @@
     "preparacion": "Decocción de madera: 1 cucharada de astillas en 500ml hervir 15 minutos.",
     "contraindicaciones": "Evitar en insuficiencia renal grave. No usar en embarazo.",
     "parte_usada": "madera del tronco",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Eysenhardtia_polystachya.jpg/800px-Eysenhardtia_polystachya.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Eysenhardtia_polystachya.jpg/800px-Eysenhardtia_polystachya.jpg"
   },
   {
     "id": 180,
@@ -877,7 +877,7 @@
     "preparacion": "Decocción de corteza: 2 cucharadas en 500ml. Uso externo en heridas.",
     "contraindicaciones": "Evitar en embarazo. Uso interno moderado.",
     "parte_usada": "corteza, flores y frutos",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Vachellia_farnesiana.jpg/800px-Vachellia_farnesiana.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Vachellia_farnesiana.jpg/800px-Vachellia_farnesiana.jpg"
   },
   {
     "id": 181,
@@ -888,7 +888,7 @@
     "preparacion": "Resina quemada como incienso. Resina diluida en aceite para uso tópico.",
     "contraindicaciones": "El humo en exceso puede irritar vías respiratorias. Uso tópico seguro.",
     "parte_usada": "resina",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bursera_copallifera.jpg/800px-Bursera_copallifera.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bursera_copallifera.jpg/800px-Bursera_copallifera.jpg"
   },
   {
     "id": 182,
@@ -899,7 +899,7 @@
     "preparacion": "Decocción de corteza: 1 cucharada en 500ml hervir 10 minutos.",
     "contraindicaciones": "Uso bajo supervisión. Evitar en embarazo.",
     "parte_usada": "corteza",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Hippocratea_excelsa.jpg/800px-Hippocratea_excelsa.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Hippocratea_excelsa.jpg/800px-Hippocratea_excelsa.jpg"
   },
   {
     "id": 183,
@@ -910,7 +910,7 @@
     "preparacion": "Infusión: 1 cucharadita de hojas secas en 250ml.",
     "contraindicaciones": "Monitorear glucosa. Evitar en embarazo.",
     "parte_usada": "hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Brickellia_veronicaefolia.jpg/800px-Brickellia_veronicaefolia.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Brickellia_veronicaefolia.jpg/800px-Brickellia_veronicaefolia.jpg"
   },
   {
     "id": 184,
@@ -921,7 +921,7 @@
     "preparacion": "Extracto estandarizado. Infusión de hojas: 1 cucharadita en 250ml.",
     "contraindicaciones": "Evitar con sedantes y ansiolíticos farmacológicos. Precaución en embarazo.",
     "parte_usada": "hojas y flores",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Galphimia_glauca.jpg/800px-Galphimia_glauca.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Galphimia_glauca.jpg/800px-Galphimia_glauca.jpg"
   },
   {
     "id": 185,
@@ -932,7 +932,7 @@
     "preparacion": "Infusión de hojas: 2-3 hojas en 250ml. Solo bajo supervisión.",
     "contraindicaciones": "Contraindicado en embarazo (abortivo). Solo bajo supervisión médica.",
     "parte_usada": "hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Montanoa_tomentosa.jpg/800px-Montanoa_tomentosa.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Montanoa_tomentosa.jpg/800px-Montanoa_tomentosa.jpg"
   },
   {
     "id": 186,
@@ -943,7 +943,7 @@
     "preparacion": "Extracto homeopático o fitoterapéutico. Solo bajo supervisión.",
     "contraindicaciones": "Tóxico en dosis altas. Aceite esencial altamente tóxico. Supervisión médica.",
     "parte_usada": "hojas (ramas)",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Thuja_occidentalis_Rheingold.jpg/800px-Thuja_occidentalis_Rheingold.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Thuja_occidentalis_Rheingold.jpg/800px-Thuja_occidentalis_Rheingold.jpg"
   },
   {
     "id": 187,
@@ -954,7 +954,7 @@
     "preparacion": "Aceite esencial diluido en masajes. Infusión de ramas jóvenes.",
     "contraindicaciones": "Aceite esencial: diluir siempre. Evitar en embarazo y niños.",
     "parte_usada": "ramas y conos",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Cupressus_sempervirens_trees.jpg/800px-Cupressus_sempervirens_trees.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Cupressus_sempervirens_trees.jpg/800px-Cupressus_sempervirens_trees.jpg"
   },
   {
     "id": 188,
@@ -965,7 +965,7 @@
     "preparacion": "Inhalación de vapor con agujas. Aceite esencial muy diluido en tórax.",
     "contraindicaciones": "No usar aceite esencial en niños. Puede causar irritación.",
     "parte_usada": "agujas, yemas y resina",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Pinus_sylvestris_young_tree.jpg/800px-Pinus_sylvestris_young_tree.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Pinus_sylvestris_young_tree.jpg/800px-Pinus_sylvestris_young_tree.jpg"
   },
   {
     "id": 189,
@@ -976,7 +976,7 @@
     "preparacion": "Aceite esencial diluido en masajes. Baños con agujas.",
     "contraindicaciones": "Diluir aceite esencial. Evitar en embarazo.",
     "parte_usada": "agujas y yemas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Abies_alba_foliage.jpg/800px-Abies_alba_foliage.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Abies_alba_foliage.jpg/800px-Abies_alba_foliage.jpg"
   },
   {
     "id": 190,
@@ -987,7 +987,7 @@
     "preparacion": "Aceite de cade tópico para psoriasis y eccema. Muy diluido.",
     "contraindicaciones": "Solo uso tópico. Diluir siempre. Evitar en embarazo.",
     "parte_usada": "madera (aceite de cade)",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Juniperus_oxycedrus.jpg/800px-Juniperus_oxycedrus.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Juniperus_oxycedrus.jpg/800px-Juniperus_oxycedrus.jpg"
   },
   {
     "id": 191,
@@ -998,7 +998,7 @@
     "preparacion": "Goma arábiga: 1 cucharadita en agua. Suplemento en polvo.",
     "contraindicaciones": "Puede causar gases al inicio. Generalmente seguro.",
     "parte_usada": "goma (resina)",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Acacia_senegal_-_Flickr.jpg/800px-Acacia_senegal_-_Flickr.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Acacia_senegal_-_Flickr.jpg/800px-Acacia_senegal_-_Flickr.jpg"
   },
   {
     "id": 192,
@@ -1009,7 +1009,7 @@
     "preparacion": "Cáscara de semilla: 1-2 cucharaditas en 250ml agua, tomar inmediatamente.",
     "contraindicaciones": "Tomar siempre con abundante agua. Puede causar obstrucción si no hay suficiente líquido.",
     "parte_usada": "cáscara de semillas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Psyllium_husk.jpg/800px-Psyllium_husk.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Psyllium_husk.jpg/800px-Psyllium_husk.jpg"
   },
   {
     "id": 193,
@@ -1020,7 +1020,7 @@
     "preparacion": "Semillas molidas: 1-2 cucharadas en batidos. Aceite: 1 cucharada al día.",
     "contraindicaciones": "Tomar con agua abundante. Puede interactuar con medicamentos si se toman juntos.",
     "parte_usada": "semillas y aceite",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Linseed_open.jpg/800px-Linseed_open.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Linseed_open.jpg/800px-Linseed_open.jpg"
   },
   {
     "id": 194,
@@ -1031,7 +1031,7 @@
     "preparacion": "1-2 cucharadas en agua, yogur o batidos. Dejar reposar 10 minutos.",
     "contraindicaciones": "Tomar con agua abundante. Precaución con anticoagulantes.",
     "parte_usada": "semillas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Chia_Seeds.jpg/800px-Chia_Seeds.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Chia_Seeds.jpg/800px-Chia_Seeds.jpg"
   },
   {
     "id": 195,
@@ -1042,7 +1042,7 @@
     "preparacion": "Semillas cocidas como cereal. Harina en recetas. Hojas en ensaladas.",
     "contraindicaciones": "Rico en oxalatos: moderar en cálculos renales. Generalmente muy seguro.",
     "parte_usada": "semillas y hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Amaranth_var_Plainsman.jpg/800px-Amaranth_var_Plainsman.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Amaranth_var_Plainsman.jpg/800px-Amaranth_var_Plainsman.jpg"
   },
   {
     "id": 196,
@@ -1053,7 +1053,7 @@
     "preparacion": "Semillas cocidas como cereal. Lavar bien antes de cocinar.",
     "contraindicaciones": "Lavar para eliminar saponinas. Puede causar alergias en personas sensibles.",
     "parte_usada": "semillas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Chenopodium_quinoa0.jpg/800px-Chenopodium_quinoa0.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Chenopodium_quinoa0.jpg/800px-Chenopodium_quinoa0.jpg"
   },
   {
     "id": 197,
@@ -1064,7 +1064,7 @@
     "preparacion": "Semillas tostadas y molidas. Cocidas como cereal.",
     "contraindicaciones": "Generalmente seguro. Moderar en cálculos por oxalatos.",
     "parte_usada": "semillas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Amaranthus_caudatus_flowers.jpg/800px-Amaranthus_caudatus_flowers.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Amaranthus_caudatus_flowers.jpg/800px-Amaranthus_caudatus_flowers.jpg"
   },
   {
     "id": 198,
@@ -1075,7 +1075,7 @@
     "preparacion": "Semillas tostadas. Aceite: 1 cucharada al día. Polvo en batidos.",
     "contraindicaciones": "Semillas crudas pueden causar náuseas. Tostar siempre.",
     "parte_usada": "semillas y aceite",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Sacha_Inchi_2.jpg/800px-Sacha_Inchi_2.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Sacha_Inchi_2.jpg/800px-Sacha_Inchi_2.jpg"
   },
   {
     "id": 199,
@@ -1086,7 +1086,7 @@
     "preparacion": "Polvo: 1 cucharadita en jugos. Fruta fresca o congelada.",
     "contraindicaciones": "Muy ácido: puede erosionar esmalte dental. Moderar en gastritis.",
     "parte_usada": "fruto",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Myrciaria_dubia_fruits.jpg/800px-Myrciaria_dubia_fruits.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Myrciaria_dubia_fruits.jpg/800px-Myrciaria_dubia_fruits.jpg"
   },
   {
     "id": 200,
@@ -1097,6 +1097,6 @@
     "preparacion": "Pulpa congelada en batidos. Polvo: 1-2 cucharaditas al día.",
     "contraindicaciones": "Puede potenciar anticoagulantes. Verificar fuente (puede estar adulterado).",
     "parte_usada": "fruto",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Acai_Euterpe_oleracea.jpg/800px-Acai_Euterpe_oleracea.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Acai_Euterpe_oleracea.jpg/800px-Acai_Euterpe_oleracea.jpg"
   }
 ]
