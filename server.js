@@ -117,10 +117,30 @@ Parte usada: ${p.parte_usada}`).join("\n---\n");
 const SYSTEM_BASE = `Eres FloraIntellect, experto en plantas medicinales. Hablas con calidez, usas nombres científicos, mezclas sabiduría ancestral con ciencia moderna y siempre adviertes sobre contraindicaciones. No diagnostiques enfermedades. Máximo 3-4 párrafos por respuesta. Usa emojis de plantas con moderación 🌿🌸🍃.`;
 
 // ── POST /chat ────────────────────────────────────────────────────────────────
+function respuestaFallback(plantas, pregunta) {
+  if (!plantas || plantas.length === 0) {
+    return `🌿 No encontré una planta exacta relacionada con "${pregunta}".
+
+Puedes intentar preguntarme por una planta específica como manzanilla, jengibre, lavanda, menta o aloe vera.`;
+  }
+
+  return plantas.map(p => `🌿 **${p.nombre_comun}** (*${p.nombre_cientifico}*)
+
+**Usos:** ${(p.usos || []).join(", ")}
+
+**Preparación:** ${p.preparacion}
+
+**Parte usada:** ${p.parte_usada}
+
+⚠️ **Contraindicaciones:** ${p.contraindicaciones}`).join("\n\n---\n\n");
+}
+
 app.post("/chat", async (req, res) => {
   const { messages } = req.body;
-  if (!messages || !Array.isArray(messages) || messages.length === 0)
+
+  if (!messages || !Array.isArray(messages) || messages.length === 0) {
     return res.status(400).json({ error: "messages es obligatorio." });
+  }
 
   const ultimo = messages[messages.length - 1]?.content || "";
   const relevantes = buscarPlantasRelevantes(ultimo);
@@ -129,6 +149,14 @@ app.post("/chat", async (req, res) => {
   const system = contexto
     ? `${SYSTEM_BASE}\n\nINFORMACIÓN DE LA BASE DE DATOS:\n${contexto}`
     : SYSTEM_BASE;
+
+  const fotos = relevantes
+    .slice(0, 2)
+    .filter(p => p.imagen)
+    .map(p => ({
+      nombre: p.nombre_comun,
+      url: p.imagen
+    }));
 
   try {
     const response = await client.messages.create({
@@ -140,17 +168,18 @@ app.post("/chat", async (req, res) => {
 
     const reply = response.content[0].text;
 
-    // Buscar fotos en Pixabay para plantas relevantes
-    const fotosPromises = relevantes.slice(0, 2).map(async p => {
-      const url = await buscarFotoPixabay(p.nombre_comun);
-      return url ? { nombre: p.nombre_comun, url } : null;
-    });
-    const fotos = (await Promise.all(fotosPromises)).filter(Boolean);
-
     res.json({ reply, fotos });
   } catch (error) {
     console.error("Error:", error.message);
-    res.status(500).json({ error: "Error interno." });
+
+    const reply = respuestaFallback(relevantes, ultimo);
+
+    res.json({
+      reply: `${reply}
+
+🍃 *Respuesta generada desde la base de datos local porque el servicio de IA no está disponible en este momento.*`,
+      fotos
+    });
   }
 });
 
