@@ -49,24 +49,19 @@ async function aplicarFotos() {
 }
 
 function imgHTML(planta, height = '180px') {
+  const imagen = planta.imagen;
+
+  if (imagen) {
+    return `<div class="plant-img-container" style="height:${height};overflow:hidden;background:var(--pergamino);display:flex;align-items:center;justify-content:center;">
+      <img src="${imagen}" alt="${planta.nombre_comun}" 
+        style="width:100%;height:100%;object-fit:cover;"
+        onerror="this.parentElement.innerHTML='<div style=display:flex;align-items:center;justify-content:center;height:100%;font-size:48px>🌿</div>'">
+    </div>`;
+  }
+
   return `<div class="plant-img-container" style="height:${height};overflow:hidden;background:var(--pergamino);display:flex;align-items:center;justify-content:center;">
     <span style="font-size:32px">🌿</span>
   </div>`;
-}
-
-async function init() {
-  try {
-    const res = await fetch(`${API}/plantas`);
-    const data = await res.json();
-    todasLasPlantas = data.plantas || [];
-    plantasFiltradas = [...todasLasPlantas];
-    const stat = document.getElementById('stat-plantas');
-    if (stat) stat.textContent = todasLasPlantas.length;
-    renderCatalogo();
-  } catch (e) {
-    console.error('No se pudo conectar al servidor:', e);
-  }
-  initChat();
 }
 
 function showSection(nombre, btn) {
@@ -116,7 +111,6 @@ function renderCatalogo() {
     </div>`).join('');
 
   renderPaginacion();
-  aplicarFotos();
 }
 
 function renderPaginacion() {
