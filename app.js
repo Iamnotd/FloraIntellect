@@ -111,6 +111,7 @@ function renderCatalogo() {
     </div>`).join('');
 
   renderPaginacion();
+
 }
 
 function renderPaginacion() {
@@ -145,6 +146,22 @@ function abrirModal(id) {
       </div>
       <div class="modal-section"><h4>🫖 Preparación</h4><p>${p.preparacion}</p></div>
       <div class="modal-section"><h4>🌿 Parte usada</h4><p>${p.parte_usada}</p></div>
+      <div class="modal-section">
+        <h4>🧪 Principios activos</h4>
+        <p>${p.principios_activos || "Información no disponible."}</p>
+      </div>
+      <div class="modal-section">
+        <h4>🌎 Origen</h4>
+        <p>${p.origen || "Información no disponible."}</p>
+      </div>
+      <div class="modal-section">
+        <h4>📚 Evidencia científica</h4>
+        <p>${p.evidencia || "Uso tradicional documentado."}</p>
+      </div>
+      <div class="modal-section">
+        <h4>💡 Curiosidad</h4>
+        <p>${p.curiosidad || "Sin curiosidades registradas."}</p>
+      </div>
       <div class="modal-section">
         <div class="warning-box">⚠️ <span><strong>Contraindicaciones:</strong> ${p.contraindicaciones}</span></div>
       </div>
