@@ -103,7 +103,7 @@ app.get("/foto-planta/:id", async (req, res) => {
     foto = await buscarFotoPixabay(`${planta.nombre_comun} herb plant`);
   }
 
-  res.json({ foto_url: foto || null });
+  res.json({ imagen: foto || null });;
 });
 
 function formatearContexto(plantas) {

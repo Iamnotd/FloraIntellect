@@ -10,14 +10,22 @@ const fotoCache = {};
 // ── Carga foto de una planta ──────────────────────────────────────────────────
 async function cargarFoto(id) {
   if (fotoCache[id]) return fotoCache[id];
+
   try {
-    const res = await fetch(`/foto-planta/${id}`);
+    const res = await fetch(`${API}/foto-planta/${id}`);
+
+    if (!res.ok) return null;
+
     const data = await res.json();
-    if (data.foto_url) {
-      fotoCache[id] = data.foto_url;
-      return data.foto_url;
+
+    if (data.imagen) {
+      fotoCache[id] = data.imagen;
+      return data.imagen;
     }
-  } catch (e) {}
+  } catch (e) {
+    console.error(e);
+  }
+
   return null;
 }
 

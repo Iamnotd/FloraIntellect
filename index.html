@@ -1070,7 +1070,7 @@
     try {
       const res = await fetch('/foto-planta/' + id);
       const data = await res.json();
-      if (data.foto_url) { fotoCache[id] = data.foto_url; return data.foto_url; }
+      if (data.imagen) { fotoCache[id] = data.imagen; return data.imagen; }
     } catch(e) {}
     return null;
   }
@@ -1153,8 +1153,8 @@
     grid.innerHTML = pagina.map((p, i) => `
       <div class="plant-card" data-id="${p.id}" style="animation-delay:${i * 0.04}s" onclick="abrirModal(${p.id})">
         <div class="plant-img">
-          ${p.foto_url
-            ? `<img src="${p.foto_url}" alt="${p.nombre_comun}" onerror="this.parentElement.innerHTML='🌿'">`
+          ${p.imagen
+            ? `<img src="${p.imagen}" alt="${p.nombre_comun}" onerror="this.parentElement.innerHTML='🌿'">`
             : '🌿'}
         </div>
         <div class="plant-body">
@@ -1198,8 +1198,8 @@
 
     document.getElementById('modal').innerHTML = `
       <div class="modal-img">
-        ${p.foto_url
-          ? `<img src="${p.foto_url}" alt="${p.nombre_comun}" onerror="this.parentElement.innerHTML='🌿'">`
+        ${p.imagen
+          ? `<img src="${p.imagen}" alt="${p.nombre_comun}" onerror="this.parentElement.innerHTML='🌿'">`
           : '🌿'}
       </div>
       <div class="modal-body">
@@ -1295,8 +1295,8 @@
           ${plantas.map((p, i) => `
             <div class="plant-card" style="animation-delay:${i*0.05}s" onclick="abrirModal(${p.id})">
               <div class="plant-img">
-                ${p.foto_url
-                  ? `<img src="${p.foto_url}" alt="${p.nombre_comun}" onerror="this.parentElement.innerHTML='🌿'">`
+                ${p.imagen
+                  ? `<img src="${p.imagen}" alt="${p.nombre_comun}" onerror="this.parentElement.innerHTML='🌿'">`
                   : '🌿'}
               </div>
               <div class="plant-body">
