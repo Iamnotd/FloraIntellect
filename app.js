@@ -1,4 +1,4 @@
-const API = "";
+const API = "https://floraintellect.onrender.com";
 let todasLasPlantas = [];
 let plantasFiltradas = [];
 let paginaActual = 1;
