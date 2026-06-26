@@ -1088,7 +1088,7 @@
     }
   }
 
-  const API = "";
+  const API = "https://floraintellect.onrender.com";
   let todasLasPlantas = [];
   let plantasFiltradas = [];
   let paginaActual = 1;
@@ -1407,15 +1407,21 @@ Puedo ayudarte con propiedades, preparaciones, contraindicaciones y mucho más. 
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ messages: historial })
       });
+      
+      if (!res.ok) {
+        const errorText = await res.text();
+        throw new Error(`HTTP ${res.status}: ${errorText}`);
+      }
 
       const data = await res.json();
       removeTyping();
       addBotMessage(data.reply, data.fotos);
       historial.push({ role: 'assistant', content: data.reply });
 
-    } catch (e) {
+     } catch (e) {
+      console.error('Error en chat:', e);
       removeTyping();
-      addBotMessage('🌿 Parece que hay un problema de conexión. Verifica que el servidor esté corriendo.');
+      addBotMessage('🌿 Error real: ' + e.message);
     } finally {
       cargando = false;
     }

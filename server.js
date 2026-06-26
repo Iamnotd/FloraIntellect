@@ -174,6 +174,7 @@ app.get("/health", (_req, res) => res.json({
   status: "ok",
   service: "FloraIntellect",
   plantas_cargadas: PLANTAS.length,
+  anthropic: process.env.ANTHROPIC_API_KEY ? "configurado" : "no configurado",
   pixabay: PIXABAY_KEY ? "configurado" : "no configurado"
 }));
 
