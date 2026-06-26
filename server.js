@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import compression from "compression";
 import Anthropic from "@anthropic-ai/sdk";
 import dotenv from "dotenv";
 import { readFileSync, readdirSync } from "fs";
@@ -15,6 +16,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 app.use(cors({ origin: "*", methods: ["GET", "POST"], allowedHeaders: ["Content-Type"] }));
 app.use(express.json());
+app.use(compression());
 app.use(express.static(__dirname));
 
 // ── Cargar plantas ────────────────────────────────────────────────────────────
@@ -40,22 +42,35 @@ const PLANTAS = cargarPlantas();
 const fotoCache = new Map();
 
 // ── Buscar foto en Pixabay ────────────────────────────────────────────────────
-async function buscarFotoPixabay(nombreComun) {
-  if (fotoCache.has(nombreComun)) return fotoCache.get(nombreComun);
+async function buscarFotoPixabay(terminoBusqueda) {
+  if (!terminoBusqueda) return null;
+
+  if (fotoCache.has(terminoBusqueda)) {
+    return fotoCache.get(terminoBusqueda);
+  }
 
   try {
-    const query = encodeURIComponent(`${nombreComun} plant herb medicinal`);
-    const url = `https://pixabay.com/api/?key=${PIXABAY_KEY}&q=${query}&image_type=photo&category=nature&per_page=3&safesearch=true`;
+    const query = encodeURIComponent(terminoBusqueda);
+
+    const url =
+      `https://pixabay.com/api/?key=${PIXABAY_KEY}` +
+      `&q=${query}` +
+      `&image_type=photo` +
+      `&category=nature` +
+      `&per_page=5` +
+      `&safesearch=true`;
+
     const res = await fetch(url);
     const data = await res.json();
 
     if (data.hits && data.hits.length > 0) {
       const foto = data.hits[0].webformatURL;
-      fotoCache.set(nombreComun, foto);
+      fotoCache.set(terminoBusqueda, foto);
       return foto;
     }
-  } catch (e) {
-    console.error("Pixabay error:", e.message);
+
+  } catch (err) {
+    console.error("Pixabay:", err.message);
   }
 
   return null;
@@ -66,20 +81,30 @@ app.get("/foto-planta/:id", async (req, res) => {
   const planta = PLANTAS.find(p => p.id === parseInt(req.params.id));
   if (!planta) return res.status(404).json({ error: "No encontrada" });
 
-  const foto = await buscarFotoPixabay(planta.nombre_comun);
+  let foto = null;
+
+  if (planta.imagen) {
+    foto = planta.imagen;
+  }
+
+  if (!foto && planta.nombre_cientifico) {
+    foto = await buscarFotoPixabay(planta.nombre_cientifico);
+  }
+
+  if (!foto && planta.nombre_comun) {
+    foto = await buscarFotoPixabay(planta.nombre_comun);
+  }
+
+  if (!foto && planta.nombre_cientifico) {
+    foto = await buscarFotoPixabay(`${planta.nombre_cientifico} medicinal plant`);
+  }
+
+  if (!foto && planta.nombre_comun) {
+    foto = await buscarFotoPixabay(`${planta.nombre_comun} herb plant`);
+  }
+
   res.json({ foto_url: foto || null });
 });
-
-// ── Buscar plantas ────────────────────────────────────────────────────────────
-function buscarPlantasRelevantes(pregunta, limite = 5) {
-  const texto = pregunta.toLowerCase();
-  return PLANTAS.filter(p => {
-    const nc = p.nombre_comun?.toLowerCase() || "";
-    const usos = (p.usos || []).join(" ").toLowerCase();
-    return nc.includes(texto) || usos.includes(texto) || texto.includes(nc) ||
-      texto.split(" ").some(w => w.length > 3 && (nc.includes(w) || usos.includes(w)));
-  }).slice(0, limite);
-}
 
 function formatearContexto(plantas) {
   return plantas.map(p => `📌 ${p.nombre_comun} (${p.nombre_cientifico})
