@@ -944,6 +944,7 @@
     <nav>
       <button class="nav-btn active" onclick="showSection('chat', this)">💬 Chat</button>
       <button class="nav-btn" onclick="showSection('catalogo', this)">🌱 Catálogo</button>
+      <button class="nav-btn" onclick="showSection('favoritos', this)">⭐ Favoritos</button>
       <button class="nav-btn" onclick="showSection('buscador', this)">🔍 Buscador</button>
     </nav>
   </div>
@@ -1042,6 +1043,16 @@
   </div>
 </section>
 
+<!-- ══════ SECCIÓN: FAVORITOS ══════ -->
+<section class="section" id="section-favoritos">
+  <div class="container">
+    <h2 class="section-title">Favoritos</h2>
+    <p class="section-subtitle">Tus plantas medicinales guardadas</p>
+
+    <div class="plants-grid" id="favoritos-grid"></div>
+  </div>
+</section>
+
 <!-- ══════ SECCIÓN: BUSCADOR ══════ -->
 <section class="section" id="section-buscador">
   <div class="container">
@@ -1065,3 +1076,4 @@
 <script src="app.js"></script>
 </body>
 </html>
+
