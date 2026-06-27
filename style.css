@@ -660,147 +660,158 @@
        MODAL DE PLANTA
     ══════════════════════════════════════ */
     .modal-overlay {
-      display: none;
-      position: fixed;
-      inset: 0;
-      background: rgba(44,26,14,0.6);
-      backdrop-filter: blur(6px);
-      z-index: 1000;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
-    }
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(44,26,14,0.65);
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
 
-    .modal-overlay.open {
-      display: flex;
-    }
+.modal-overlay.open {
+  display: flex;
+}
 
-    .modal {
-      background: var(--blanco);
-      border-radius: 24px;
-      max-width: 600px;
-      width: 100%;
-      max-height: 85vh;
-      overflow-y: auto;
-      animation: modalIn 0.3s ease;
-    }
+.modal {
+  background: var(--blanco);
+  border-radius: 26px;
+  max-width: 650px;
+  width: 100%;
+  max-height: 88vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 70px rgba(44,26,14,0.35);
+  border: 1px solid rgba(90,138,62,0.18);
+  animation: modalIn 0.3s ease;
+}
 
-    @keyframes modalIn {
-      from { opacity: 0; transform: scale(0.95) translateY(20px); }
-      to { opacity: 1; transform: scale(1) translateY(0); }
-    }
+.modal-img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 26px 26px 0 0;
+  background: linear-gradient(135deg, var(--pergamino), var(--crema));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 64px;
+}
 
-    .modal-img {
-      width: 100%;
-      height: 240px;
-      object-fit: cover;
-      border-radius: 24px 24px 0 0;
-      background: var(--pergamino);
-      display: flex; align-items: center; justify-content: center;
-      font-size: 64px;
-    }
+.modal-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 26px 26px 0 0;
+}
 
-    .modal-img img {
-      width: 100%; height: 100%;
-      object-fit: cover;
-      border-radius: 24px 24px 0 0;
-    }
+.modal-body {
+  padding: 30px;
+}
 
-    .modal-body {
-      padding: 28px;
-    }
+.modal-familia {
+  font-size: 12px;
+  color: var(--hoja);
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
 
-    .modal-familia {
-      font-size: 12px;
-      color: var(--hoja);
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-      margin-bottom: 8px;
-    }
+.modal-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--tierra);
+  margin-bottom: 4px;
+}
 
-    .modal-name {
-      font-family: 'Playfair Display', serif;
-      font-size: 28px;
-      font-weight: 700;
-      color: var(--tierra);
-      margin-bottom: 4px;
-    }
+.modal-scientific {
+  font-style: italic;
+  color: var(--arena);
+  font-size: 17px;
+  margin-bottom: 24px;
+}
 
-    .modal-scientific {
-      font-style: italic;
-      color: var(--arena);
-      font-size: 16px;
-      margin-bottom: 24px;
-    }
+.modal-section {
+  background: rgba(237,229,208,0.45);
+  border: 1px solid rgba(90,138,62,0.12);
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 14px;
+}
 
-    .modal-section {
-      margin-bottom: 20px;
-    }
+.modal-section h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  color: var(--musgo);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
 
-    .modal-section h4 {
-      font-family: 'Playfair Display', serif;
-      font-size: 15px;
-      color: var(--musgo);
-      margin-bottom: 8px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
+.modal-section p {
+  font-size: 15px;
+  color: #5a4a36;
+  line-height: 1.65;
+}
 
-    .modal-section p {
-      font-size: 15px;
-      color: #5a4a36;
-      line-height: 1.65;
-    }
+.modal-usos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
 
-    .modal-usos {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
+.modal-tag {
+  background: rgba(90,138,62,0.14);
+  color: var(--musgo);
+  border: 1px solid rgba(90,138,62,0.16);
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 14px;
+}
 
-    .modal-tag {
-      background: rgba(90,138,62,0.12);
-      color: var(--musgo);
-      border-radius: 20px;
-      padding: 5px 14px;
-      font-size: 14px;
-    }
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 24px;
+}
 
-    .modal-actions {
-      display: flex;
-      gap: 10px;
-      margin-top: 24px;
-    }
+.btn-primary {
+  flex: 1;
+  padding: 13px;
+  background: linear-gradient(135deg, var(--musgo), var(--hoja));
+  color: white;
+  border: none;
+  border-radius: 14px;
+  font-family: 'Crimson Pro', serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 5px 18px rgba(90,138,62,0.28);
+}
 
-    .btn-primary {
-      flex: 1;
-      padding: 13px;
-      background: linear-gradient(135deg, var(--musgo), var(--hoja));
-      color: white;
-      border: none;
-      border-radius: 12px;
-      font-family: 'Crimson Pro', serif;
-      font-size: 16px;
-      cursor: pointer;
-      transition: all 0.2s;
-    }
+.btn-primary:hover {
+  transform: translateY(-2px);
+}
 
-    .btn-primary:hover { transform: translateY(-2px); }
+.btn-secondary {
+  padding: 13px 20px;
+  background: white;
+  color: var(--musgo);
+  border: 1px solid rgba(90,138,62,0.3);
+  border-radius: 14px;
+  font-family: 'Crimson Pro', serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
 
-    .btn-secondary {
-      padding: 13px 20px;
-      background: transparent;
-      color: var(--musgo);
-      border: 1px solid rgba(90,138,62,0.3);
-      border-radius: 12px;
-      font-family: 'Crimson Pro', serif;
-      font-size: 16px;
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-
-    .btn-secondary:hover { background: var(--pergamino); }
+.btn-secondary:hover {
+  background: var(--pergamino);
+}
 
     /* Warning box */
     .warning-box {

@@ -37,6 +37,61 @@ function cargarPlantas() {
 }
 
 const PLANTAS = cargarPlantas();
+function normalizarTexto(valor) {
+  return String(valor || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
+function buscarPlantasRelevantes(query, limite = 5) {
+  const texto = normalizarTexto(query).trim();
+  if (!texto) return [];
+
+  const terminos = texto
+    .split(/\s+/)
+    .map(t => t.trim())
+    .filter(t => t.length > 2);
+
+  return PLANTAS
+    .map(planta => {
+      const nombreComun = normalizarTexto(planta.nombre_comun);
+      const nombreCientifico = normalizarTexto(planta.nombre_cientifico);
+      const familia = normalizarTexto(planta.familia);
+      const usos = normalizarTexto((planta.usos || []).join(" "));
+      const preparacion = normalizarTexto(planta.preparacion);
+      const parteUsada = normalizarTexto(planta.parte_usada);
+      const contraindicaciones = normalizarTexto(planta.contraindicaciones);
+
+      let score = 0;
+
+      if (nombreComun === texto) score += 100;
+      if (nombreCientifico === texto) score += 95;
+      if (nombreComun.includes(texto)) score += 60;
+      if (nombreCientifico.includes(texto)) score += 55;
+      if (familia.includes(texto)) score += 35;
+      if (usos.includes(texto)) score += 30;
+      if (preparacion.includes(texto)) score += 18;
+      if (parteUsada.includes(texto)) score += 16;
+      if (contraindicaciones.includes(texto)) score += 12;
+
+      for (const termino of terminos) {
+        if (nombreComun.includes(termino)) score += 20;
+        if (nombreCientifico.includes(termino)) score += 18;
+        if (familia.includes(termino)) score += 10;
+        if (usos.includes(termino)) score += 8;
+        if (preparacion.includes(termino)) score += 4;
+        if (parteUsada.includes(termino)) score += 4;
+        if (contraindicaciones.includes(termino)) score += 3;
+      }
+
+      return { planta, score };
+    })
+    .filter(resultado => resultado.score > 0)
+    .sort((a, b) => b.score - a.score || a.planta.id - b.planta.id)
+    .slice(0, limite)
+    .map(resultado => resultado.planta);
+}
 
 // ── Cache de fotos ────────────────────────────────────────────────────────────
 const fotoCache = new Map();

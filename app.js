@@ -5,7 +5,29 @@ let paginaActual = 1;
 const POR_PAGINA = 24;
 let historial = [];
 let cargando = false;
+let favoritos = JSON.parse(localStorage.getItem("flora_favoritos")) || [];
 const fotoCache = {};
+
+function guardarFavoritos() {
+  localStorage.setItem("flora_favoritos", JSON.stringify(favoritos));
+}
+
+function esFavorito(id) {
+  return favoritos.includes(id);
+}
+
+function toggleFavorito(id, event) {
+  if (event) event.stopPropagation();
+
+  if (esFavorito(id)) {
+    favoritos = favoritos.filter(favId => favId !== id);
+  } else {
+    favoritos.push(id);
+  }
+
+  guardarFavoritos();
+  renderCatalogo();
+}
 
 // ── Carga foto de una planta ──────────────────────────────────────────────────
 async function cargarFoto(id) {
@@ -98,6 +120,9 @@ function renderCatalogo() {
 
   grid.innerHTML = pagina.map((p, i) => `
     <div class="plant-card" data-id="${p.id}" style="animation-delay:${i * 0.04}s" onclick="abrirModal(${p.id})">
+    <button class="fav-btn" onclick="toggleFavorito(${p.id}, event)">
+      ${esFavorito(p.id) ? "❤️" : "🤍"}
+    </button>
       ${imgHTML(p, '180px')}
       <div class="plant-body">
         <div class="plant-familia">${p.familia || ''}</div>
